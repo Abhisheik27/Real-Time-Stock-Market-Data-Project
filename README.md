@@ -1,6 +1,6 @@
 # Kafka Stock Market Simulation
 
-This project is a data engineering simulation of real-time stock market data using Kafka. It consists of a Producer that streams stock market data into Kafka and a Consumer that reads the data and stores it into AWS S3.
+This project simulates real-time stock market data streaming using Kafka. It features a Producer that streams stock market data from a CSV file into a Kafka topic, and a Consumer that reads the data from Kafka and stores it in an AWS S3 bucket for persistent storage.
 
 ## Project Structure
 
