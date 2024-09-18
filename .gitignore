@@ -1,0 +1,4 @@
+# safe zone
+*.yml
+*.pem
+/indexProcessed.csv
