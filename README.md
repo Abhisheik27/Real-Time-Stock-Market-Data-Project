@@ -22,6 +22,22 @@ This project is a data engineering simulation of real-time stock market data usi
 
 ## Instructions:
 
+### Running the Producer:
+
+The producer.ipynb notebook reads stock market data from a CSV file (market.csv) and streams the data to a Kafka topic in real-time.
+
+To start the producer:
+- Open producer.ipynb.
+- Run the notebook to start streaming the data into the Kafka topic.
+
+### Running the Consumer:
+
+The consumer.ipynb notebook listens to the Kafka topic and stores the streamed data into an AWS S3 bucket.
+
+To start the consumer:
+- Open consumer.ipynb.
+- Run the notebook to start consuming the data and writing it to your S3 bucket.
+
 ## Bugs & Tips
 
 These are some bugs that I encountered
@@ -47,11 +63,9 @@ The stock market data used in this project can be sourced from Kaggle. You can e
 
 ## Future Enhancements (Just what I think can be done)
 
-Add support for multiple consumers.
-
-Implement data transformation or aggregation before storing it in S3.
-
-Deploy the consumer as a scalable AWS Lambda function.
+- Add support for multiple consumers.
+- Implement data transformation or aggregation before storing it in S3.
+- Deploy the consumer as a scalable AWS Lambda function.
 
 ## Contact
 
